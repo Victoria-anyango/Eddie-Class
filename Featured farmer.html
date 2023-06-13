@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="logo-no-background.png" />
+  <title>Partners Section</title>
+  <img src="logo-no-background.png" width=200px alt="Logo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    *{
+        background-color: FFFFFF;
+        color: rgb(141, 111, 54);
+    }
+    .partners-section {
+      text-align: center;
+      padding: 20px;
+    }
+    /* #66bb6a */
+    .partners-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .partner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .partner img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .partner h3 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+    
+    .partner p {
+      font-size: 22px;
+    }
+    .return-button {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="partners-section">
+    <h2>Featured farmers</h2>
+    <div class="partners-container">
+      <div class="partner">
+        <img src="IMG_20221228_113947_794.jpg" alt="Partner 1">
+        <p>James Michuki<br>
+            James Michuki is a farmer from western region who harvested most Soybeans this Week
+        </p>
+      </div>
+      <div class="partner">
+        <img src="IMG-20230104-WA0011.jpg" alt="Partner 2">
+        <h3>Victoria Kimani</h3>
+        James Michuki is a farmer from western region who harvested most Soybeans this Week
+        </p>
+      </div>
+    </div>
+    <a href="index.html" class="home-link">
+      <i class="fas fa-home home-icon"></i>
+      Home
+    </a>   </div>
+</body>
+</html>
